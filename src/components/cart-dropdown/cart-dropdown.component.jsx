@@ -1,12 +1,14 @@
-import React from 'react';
+import React from "react";
 
-import Button from '../button/button.component';
+import Button from "../button/button.component";
+import CartItem from "../cart-item/cart-item.component";
 
-import './cart-dropdown.styles.scss';
+import "./cart-dropdown.styles.scss";
 
 const CartDropdown = () => (
-  <div className='cart-dropdown-container'>
-    <div className='cart-items' />
+  <div className="cart-dropdown-container">
+    <div className="cart-items" />
+    <CartItem />
     <Button>GO TO CHECKOUT</Button>
   </div>
 );
