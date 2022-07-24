@@ -10,6 +10,7 @@ import {
   onAuthStateChanged,
 } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
+
 const firebaseConfig = {
   apiKey: "AIzaSyBGBEQYSZUUYN5NdDG1WY-Nhhn5tqMCrPo",
   authDomain: "ecommerce-store-2b7b2.firebaseapp.com",
