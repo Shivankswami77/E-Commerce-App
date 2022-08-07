@@ -1,0 +1,5 @@
+import { createAction } from "../../utils/reducer/reducer.utils";
+import { CATEGORIES_ACTION_TYPES } from "../categories/category.types";
+
+export const setCurrentUser = (user) =>
+  createAction(CATEGORIES_ACTION_TYPES.SET_CATEGORIES_MAP, user);
